@@ -1,22 +1,67 @@
 aid: eigen
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eigen.png
 name: Eigen
-description: Eigen is a company surfaced as a portfolio company of anthemis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Eigen Technologies is a London-based intelligent document processing (IDP) and
+  data-extraction company that uses natural language processing, object detection
+  and machine learning to extract, classify and interpret structured data from
+  unstructured documents at scale. Its no-code platform lets teams in financial
+  services, insurance, law and professional services pull hundreds of datapoints
+  out of contracts, loan agreements and filings to manage risk, automate processes
+  and meet regulatory obligations, with extracted data pushed downstream via its
+  document-processing API. Founded in 2014 and backed by Goldman Sachs, Temasek,
+  Lakestar, Dawn Capital, ING Ventures, Anthemis and the Sony Innovation Fund,
+  Eigen was acquired by contract-lifecycle-management platform Sirion in June 2024.
 url: https://raw.githubusercontent.com/api-evangelist/eigen/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - anthemis
+x-acquired-by: sirion
+x-acquired-date: '2024-06-06'
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Document AI
+- Intelligent Document Processing
+- Data Extraction
+- Natural Language Processing
+- Machine Learning
+- Financial Services
+- Legal Tech
+- Insurance
 apis: []
+common:
+- type: DomainSecurity
+  url: security/eigen-domain-security.yml
+- type: Website
+  url: https://eigentech.com/
+- type: GitHubOrganization
+  url: https://github.com/eigentechnologies
+- type: LinkedIn
+  url: https://www.linkedin.com/company/eigen-technologies
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

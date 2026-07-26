@@ -1,0 +1,24 @@
+generated: '2026-07-19'
+method: searched
+source: live probe of https://eigentech.com/.well-known/*
+host: https://eigentech.com
+note: >-
+  eigentech.com is served behind Cloudflare, which returns HTTP 410 (Gone) for the
+  entire /.well-known/ path space. No discovery documents are published. Absence of
+  a well-known catalog is a valid, recorded result — no canonical pointer is wired.
+documents:
+- path: /.well-known/security.txt
+  status: 410
+  file: null
+- path: /.well-known/openid-configuration
+  status: 410
+  file: null
+- path: /.well-known/oauth-authorization-server
+  status: 410
+  file: null
+- path: /.well-known/api-catalog
+  status: 410
+  file: null
+- path: /.well-known/ai-plugin.json
+  status: 410
+  file: null
