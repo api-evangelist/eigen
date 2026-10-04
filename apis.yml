@@ -54,8 +54,8 @@ tags:
 - Intelligent Document Processing
 - Data Extraction
 - Natural Language Processing
-- Machine-Learning
-- Financial-Services
+- Machine Learning
+- Financial Services
 - Legal Tech
 - Insurance
 tags_raw:
@@ -68,6 +68,8 @@ tags_raw:
 - Financial Services
 - Legal Tech
 - Insurance
+- Machine-Learning
+- Financial-Services
 apis: []
 common:
 - type: DomainSecurity
